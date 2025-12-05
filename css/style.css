@@ -1,0 +1,416 @@
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.my_navbar {
+    /* background: linear-gradient( #02d5fa); */
+    border-bottom: 2px solid black;
+    font-family: "Roboto Slab", serif;
+}
+
+.nav_option a{
+    transition: 1s;
+}
+
+.nav_option a:hover {
+    border-bottom: 1px solid #05aff7;
+}
+
+.my_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.images img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text {
+    background: #00000000;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgb(96, 205, 255);
+}
+
+div h3 {
+    font-family: "Lobster Two", sans-serif;
+    color: #000;
+    
+}
+
+div h1 {
+    font-family: "Gravitas One", serif;
+    color: #37a9f0;
+}
+
+div p {
+    font-family: "Gravitas One", serif;
+    font-size: 19px;
+}
+
+.read_more {
+    box-shadow: 0 0 10px #7125f5;
+    width: 130px;
+    height: 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.read_more:hover {
+    background: linear-Gradient(#7125f5, #05aff7);
+    box-shadow: none;
+    color: white;
+}
+
+.images img {
+    box-shadow: 0px 0px 20px rgb(96, 205, 255);
+}
+
+main {
+    background-image: url();
+}
+
+/* ==============contact============== */
+
+.my_icon i {
+    color: #2799f3;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.my_icon h2 {
+    color: #000;
+    /* font-family: ; */
+}
+
+.social_media_icon i {
+    font-size: 35px;
+    color: black;
+}
+
+
+/* ==============contact============== */
+
+
+
+/* ==============service============== */
+
+.my_dentistry img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.services_page div div div{
+   transition: 0.5s;
+}
+
+
+/* .services_page div div div:hover {
+    transform: scale(1.2);
+} */
+
+#hover1 {
+    opacity: 0;
+    animation: bottomTOtop 1s ease .5s forwards;
+}
+#hover2 {
+    opacity: 0;
+    animation: bottomTOtop 1s ease 1s forwards;
+}
+#hover3 {
+    opacity: 0;
+    animation: bottomTOtop 1s ease 1.5s forwards;
+}
+#hover4 {
+    opacity: 0;
+    animation: bottomTOtop 1s ease 2s forwards;
+}
+#hover5 {
+    opacity: 0;
+    animation: bottomTOtop 1s ease 2.5s forwards;
+}
+#hover6 {
+    opacity: 0;
+    animation: bottomTOtop 1s ease 3s forwards;
+}
+
+@keyframes bottomTOtop{
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+/* .services_page {
+    opacity: 0;
+    animation: slideleft 1s ease forwards;
+}
+
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+} */
+
+/* ==============service============== */
+
+
+
+/* ==============doctor============== */
+
+.doctor_pic img {
+    height: 400px;
+    width: 260px;
+}
+
+
+
+/* ==============doctor============== */
+
+
+/* ==============appointment============== */
+
+
+/* .bg_color {
+    background: linear-gradient(45deg, #00bee8, #3e79e6, #8058e7);
+    position: relative;
+    height: 70vh;
+}
+
+.appointment {
+    background: white;
+    padding: 40px;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    width: 70vw;
+}
+
+.information {
+    display: flex;
+} */
+
+.make_in h1 {
+    color: #000000;
+}
+
+.make_in p {
+    color: #0000009a;
+}
+
+#information {
+    background: linear-gradient(45deg, #00bee8, #3e79e6, #8058e7);
+    padding: 40px;
+}
+
+@media (width:390px) {
+    #information {
+        padding: 5px;
+        padding-bottom: 30px;
+    }
+    .bg_color .make_in {
+        padding: 0px;
+    }
+}
+
+#information h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* #appointment {
+    height: 100vh;
+} */
+
+.appointment {
+    background: linear-gradient(45deg, #00bee8, #3e79e6, #8058e7);
+    /* height: 80vh; */
+    width: 100%;
+}
+
+.bg_color {
+    background: #fff;
+    padding: 50px;
+    top: 100px;
+}
+
+.bg_color .make_in {
+    padding: 40px;
+}
+
+.make_in button {
+    margin: 20px 10px 20px 20px;
+    width: 10rem;
+    font-size: 20px;
+}
+
+.lorem {
+    border: 2px solid #00bee8;
+    background: #00bee8;
+    transition: .3s;
+}
+
+.lorem:hover {
+    border: 2px solid #00bee8;
+    background: #ffffff;
+    transform: scale(1.12);
+}
+
+.sit_dolor {
+    background: #fff;
+    border: 2px solid #00bee8;
+    transition: .3s;
+}
+
+.sit_dolor:hover {
+    background: #00bee8;
+    transform: scale(1.12);
+}
+
+#btn {
+    transition: .3s;
+    background: #00bee8;
+    border: 3px solid #ffffff;
+}
+
+#btn:hover {
+    background: white;
+    border: 3px solid #00bee8;
+    transform: scale(1.12);
+}
+
+/* ==============appointment============== */
+
+
+/* ==============footer============== */
+
+.footer {
+    background: #000000da;
+    color: #fff;
+}
+
+.phone_us {
+    padding: 50px  0 0 50px;
+}
+
+.icon_phone i {
+    color: #2799f3;
+    font-size: 30px;
+}
+
+.phone_us p {
+    color: #7e7e7e;
+}
+
+.email {
+    padding: 10px 0 0 50px;
+}
+
+.email p {
+    color: #7e7e7e;
+}
+
+.location {
+    padding: 10px 0 0px 50px;
+}
+
+.location p {
+    color: #7e7e7e;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.text_para a {
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+}
+
+.text_para p {
+    color: #7e7e7e;
+}
+
+.follow_us_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow_us_icon i {
+    font-size: 40px;
+    width: 30px;
+    height: 34px;
+    background: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    border-radius: 8px;
+}
+.facebook_icon a i{
+    color: #0866ff;
+}
+
+.instagram_icon a i{
+    color: #ff068d;
+}
+
+.x_icon a i{
+    color: #000000;
+}
+
+.link_in_icon a i{
+    color: #0274b2;
+}
+
+.option ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.option ul li a {
+    color: #7e7e7e;
+    transition: .5s;
+}
+
+.option ul li a:hover {
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.opening_time p {
+    color: #7e7e7e;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ==============footer============== */
